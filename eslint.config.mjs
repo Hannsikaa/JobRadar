@@ -12,6 +12,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Test/coverage output, already git-ignored:
+    "coverage/**",
+    // Debug files:
+    "debug-*.ts",
+    "diag.cjs",
   ]),
 ]);
 
